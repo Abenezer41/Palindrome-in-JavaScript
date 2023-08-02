@@ -9,6 +9,39 @@ body{
 
 }
 
+.container11{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.palcheak11{
+    display: flex;  
+    margin-top: 150px;
+    background-color: rgb(57, 34, 34);
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.palcheak11:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+}
+
+.palgen11{
+    display: flex;  
+    margin-top: 150px;
+    background-color: rgb(54, 9, 9);
+    padding: 50px;
+    border-radius: 15px;
+}
+
+.palgen11:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+}
+
 .wrapper{
     border-radius: 15px;
     margin-top: 110px;
@@ -86,4 +119,23 @@ body{
 .dev{
     text-align: end;
     margin-right: 80px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.bbtn{
+    margin-top: 60px;
+}
+
+.decor{
+    background-color: rgb(69, 58, 58);
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    padding: 20px 50px;
+    border-radius: 8px;
+    color: white;
 }

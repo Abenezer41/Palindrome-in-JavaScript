@@ -1,9 +1,9 @@
 let input = document.getElementById("inp");
-let button = document.getElementById("btn1");
+let butto = document.getElementById("btn1");
 let span = document.getElementById("display");
 let button2 = document.getElementById("btn2");
 
-button.addEventListener("click", () => {
+butto.addEventListener("click", () => {
   showPalindrom(input.value);
 });
 
@@ -16,10 +16,14 @@ function showPalindrom(inputtxt) {
   for (let i = word1.length - 1; i >= 0; i--) {
     word2 += word1[i];
   }
-  if (word1 === word2) {
-    span.innerText = word1 + " is A Palindrom Word.";
+
+  if(word1 == ''){
+    span.innerText = "Please Enter a Word."
+  }
+  else if (word1 === word2) {
+    span.innerText = word1 + " is A Palindrom.";
   } else {
-    span.innerText = word1 + " is Not A Palindrom Word.";
+    span.innerText = word1 + " is Not A Palindrom.";
   }
 }
 
@@ -31,3 +35,4 @@ function Clear() {
 button2.addEventListener("click", () => {
   Clear();
 });
+
