@@ -1,0 +1,89 @@
+body{
+    
+    background-color: rebeccapurple;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+
+.wrapper{
+    border-radius: 15px;
+    margin-top: 110px;
+    background-color: rgb(240, 234, 234);
+    width: 400px;
+    height: 300px;
+    padding-top: 60px;
+    box-shadow: 2px 2px 40px brown;
+}
+
+.wrapper h2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.wrapper input{
+    width: 70%;
+    padding: 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrapper input:active{
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.inp1{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 8px;
+}
+
+.btn #btn2{
+    background-color: red;
+}
+
+.btn button{
+    padding: 8px;
+    border: none;
+    border-radius: 11px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+
+.btn button:hover{
+    background-color: rgb(43, 197, 197);
+    color: rgb(10, 10, 10);
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.sp1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sp1 span{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.dev{
+    text-align: end;
+    margin-right: 80px;
+}
