@@ -139,3 +139,9 @@ a{
     border-radius: 8px;
     color: white;
 }
+
+#cli{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
