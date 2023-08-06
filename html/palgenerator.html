@@ -1,35 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Palindrom Generator</title>
-    <link rel="stylesheet" href="../css/style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="wrapper">
-        <h2>Palindrom Word Generator</h2>
+        <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>palindrome Generator</title>
 
-        <div class="sp1">
-          <span class="decor" id="d"></span>
-        </div>
-        <div class="btn bbtn">
-          <button id="gen1">Generate</button>
-          <button id="btn2">Clear</button>
-        </div>
-
-        <a id="cli" href="./palcheak.html" style="color: blueviolet;">To Cheak Palindrom Click here.</a>
-
-      </div>
-
-    </div>
-
-    <div class="dev">
-      <h4>Devloper: Abenezer Tenkir</h4>
-      <h4>Publish Date: 01/08/2023</h4>
-    </div>
-
-    <script src="../js/gen.js"></script>
-  </body>
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="../js/gen.js"></script>
+    </head>
+    <body>
+        <form>
+            <!-- <p id="message"></p><br /> -->
+            
+            <h1>Palindrome Generator: </h1>
+            <p id="palindrome_random"></p>
+            <input type="number" id="numpass" placeholder="Enter Length of character:" required>
+            <br>
+            <input type="button" id="button2"  onclick="PasswordRand()" value="Generator"/>
+            <button id="clr">Clear</button>
+        </form>
+    </body>
 </html>
